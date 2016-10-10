@@ -1,4 +1,4 @@
-
+from triangle import get_triangle
 
 def test_Cost():  
     tri = get_triangle('triangle_fixture.txt')
