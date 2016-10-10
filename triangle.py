@@ -20,8 +20,6 @@ def cost(tri):
         costBelow = [max(v+costBelow[i],v+costBelow[i+1]) for i,v in enumerate(row) ]   
     return costBelow[0]      
 
-def testCost():  
-    tri = get_triangle('triangle_fixture.txt')
-    assert cost(tri) == 202
+
  
      
